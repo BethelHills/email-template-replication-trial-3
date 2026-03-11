@@ -4,12 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Northfield Account Update</title>
-  <style>
-    @media screen and (max-width: 600px) {
-      .footer-logo-bar { padding: 28px 16px !important; }
-      .footer-logo-text { font-size: 28px !important; display: block !important; }
-    }
-  </style>
 </head>
 <body style="margin:0; padding:0; background:#efefef;">
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#efefef;">
@@ -94,15 +88,36 @@
             </td>
           </tr>
 
-          <!-- Footer logo banner (HTML table for mobile/email compatibility) -->
+          <!-- Footer logo banner (safe wedge) -->
           <tr>
-            <td style="padding:0; font-size:0; line-height:0;">
+            <td style="padding:0 18px 18px 18px;">
               <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                 <tr>
-                  <td bgcolor="#00995d" width="100%" class="footer-logo-bar" style="padding:28px 18px 28px 18px; text-align:right; font-size:26px; line-height:1.3;">
-                    <span class="footer-logo-text" style="color:#ffffff !important; font-family:Arial, Helvetica, sans-serif; font-size:26px; font-weight:700; color:#ffffff;">
-                      ✳ Northfield Bank<span style="font-size:14px; vertical-align:super;">®</span>
-                    </span>
+                  <td style="padding:0; font-size:0; line-height:0;">
+                    <svg
+                      width="100%"
+                      height="92"
+                      viewBox="0 0 1240 92"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="display:block; width:100%; height:auto;"
+                      aria-hidden="true"
+                    >
+                      <!-- angled green wedge -->
+                      <polygon points="18,88 1218,88 1218,6" fill="#069b5a"></polygon>
+
+                      <!-- placeholder brand text -->
+                      <text
+                        x="735"
+                        y="58"
+                        fill="#ffffff"
+                        font-family="Arial, Helvetica, sans-serif"
+                        font-size="34"
+                        font-weight="700"
+                        letter-spacing="0"
+                      >
+                        ✳ Northfield Bank®
+                      </text>
+                    </svg>
                   </td>
                 </tr>
               </table>
